@@ -1,0 +1,86 @@
+:root{
+    --light-bg:#A53F2B;
+    --dark-bg:#280004;
+    --content-c:#CCC9A1;
+    --logo-c:#D8D0C1;
+    --btn-bg:#272529;
+    --btn-c:#E6E8E6;
+    --head-c:#E0D3DE;
+}
+body{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--content-c);
+}
+.navbar .navbar-toggler .toggler{
+    color: white;
+}
+.navbar .navbar-toggler:active,
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:hover{
+    box-shadow: none;
+}
+.navbar .container{
+    direction: rtl;
+}
+.navbar-brand{
+    font-family: 'Reem Kufi', sans-serif;
+    color: var(--logo-c);
+    font-weight: 600;
+    transition: 0.2s;
+}
+.navbar-brand:active,
+.navbar-brand:hover,
+.navbar-brand:focus{
+    color: var(--logo-c);
+}
+.nav-item a{
+    
+    color: var(--btn-c) !important;
+}
+.nav-item a:hover{
+    color: var(--content-c) !important;
+    transition: color 0.3s;
+}
+.header{
+    direction: rtl;
+    height: 25vh;
+}
+.header h1{
+    color: var(--btn-c);
+}
+.hadeeth{
+    direction: rtl;
+}
+.learn-now{
+    direction: rtl;
+    height: 25vh;
+}
+.learn-now .btn{
+    background-color: #6610F2;
+    font-weight: 600;
+}
+.learn-now .btn:active,
+.learn-now .btn:focus,
+.learn-now .btn:hover{
+    box-shadow: none;
+    background-color: var(--btn-c);
+    color: var(--btn-bg);
+}
+
+.footer{
+    height: 20vh;
+}
+
+.facebook{
+    color: #1877f2;
+}
+.twitter{
+    color: #1da1f2;
+}
+.whatsapp{
+    color: #25d366;
+}
+.telegram{
+    color: #0088cc;
+}
